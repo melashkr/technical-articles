@@ -1,4 +1,4 @@
-# Evaluating the performance of IoT-Protocols for autonmous vehicles
+# Evaluating the performance of IoT-Protocols for autonomous vehicles
 
 ## Introduction
 This article aims to compare the most recent IoT-Protocols
