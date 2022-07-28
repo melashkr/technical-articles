@@ -1,0 +1,15 @@
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Wael_Amer\Dev\Sample Projects\IOTHubDemo\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
