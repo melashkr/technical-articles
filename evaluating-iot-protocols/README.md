@@ -87,7 +87,7 @@ for processing the 3000 requests taking 179 seconds (179651 milliseconds), and A
 The evaluation has proven that MQTT-Protocol is the best protocol for heavy workload after 2000 requests and the lowest performance protocol is HTTP. We were able to find the best performance of the protocols based on the accuracy duration in millisecond and with different workloads.
 
 ### Feedback
-Please reach out to us if you have any feedback. We hope, the aricle is helpful for you. <br />
+Please reach out to us if you have any feedback. We hope, the article is helpful for you. <br />
 E-Mail: mohamed.elashkr@gmail.com <br />
 E-Mail: wael.amer@gmail.com
 
