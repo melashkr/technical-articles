@@ -25,6 +25,31 @@ The proposed experiment in this article is built based on the architecture shown
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/architeckture.png?row=true "IoT Architecture")
 
+## BowerBI
+
+We used Power BI Desktop to load dashboard from Azure Table storage
+
+ 1- Open Power BI  
+ 2- Click "Get Data"  
+ 3- Find Azure Table storage   
+![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-get-data.PNG?row=true "Get data from Power BI")
+
+ 4- Enter your Storage Account name (you need to enter Storage Account acces key)  
+ ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table%20url-2.PNG?row=true "Get data from Power BI")
+ 
+ 5- You get your data from Azure table und you can edit it  
+ ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table-data-3.PNG?row=true "Azure Table from Storage to Power BI")  
+ 
+ 6- Click auf "Content" Colum to select other data  
+ ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table-transform-data-4.PNG?row=true "Data Preparation")
+  ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table-transform-data-5.PNG?row=true "Data Preparation")
+ 
+ 7- You get the data after you selected it
+  ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table-after-transform-data-6.PNG?row=true "Data Preparation") 
+ 
+ 8- Data is ready to build a dashboard and for analysis
+  ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-data%20preperation-7.PNG?row=true "Data Preparation") 
+
 ## Expertmental steps
 
 The first step was to create an IoT Hub as a broker in Azure which included three IoT-Devices: Device-AMQP,
