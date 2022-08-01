@@ -21,7 +21,7 @@ In order to implement the solution the following services were provisioned:
  - Power BI
  - A simulated console application
 
-The proposed experiment in this article is built based on the architecture shown in figure 1:
+The proposed experiment in this article is built based on the architecture shown in next figure:
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/architeckture.png?row=true "IoT Architecture")
 
@@ -57,7 +57,7 @@ Device-Http and Device-MQTT. Those devices were registered in the Hub. The secon
 azure function app to the IoT Hub. Once the function is ready, it will be triggered by the IoT Hub. The purpose of
 the function app is to process the incoming data and store it to the storage account table.
 
-The number of messages sent to the hub are shown in the telemetry in figure 2. It shows that 12 thousands messages
+The number of messages sent to the hub are shown in the telemetry in next figure. It shows that 12 thousands messages
 haven been sent from the simulated app to the IoT Hub in the cloud.
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/count-msgs-app-to-cloud.PNG?row=true "Count of sent messages to Cloud")
@@ -68,7 +68,7 @@ The duration of processed data sent from the console app to the cloud is used to
  - Second case: processing 1000 requests for AMQP, MQTT and HTTP protocol
  - Third case: processing 3000 requests for AMQP, MQTT and HTTP protocol
  
- The result of the caculation for the duration of processed data is show in giure 3:
+ The result of the caculation for the duration of processed data is show in next figure:
  
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/evaluation-iot-output.PNG?row=true "Count of sent messages to Cloud")
 
