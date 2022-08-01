@@ -57,7 +57,7 @@ Device-Http and Device-MQTT. Those devices were registered in the Hub. The secon
 azure function app to the IoT Hub. Once the function is ready, it will be triggered by the IoT Hub. The purpose of
 the function app is to process the incoming data and store it to the storage account table.
 
-The number of messages sent to the hub are shown in the telemetry in next figure. It shows that 12 thousands messages
+The number of messages sent to the hub are shown at The next figure. It shows that 12 thousands messages
 haven been sent from the simulated app to the IoT Hub in the cloud.
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/count-msgs-app-to-cloud.PNG?row=true "Count of sent messages to Cloud")
@@ -73,8 +73,7 @@ The duration of processed data sent from the console app to the cloud is used to
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/evaluation-iot-output.PNG?row=true "Count of sent messages to Cloud")
 
 The simulated process is conducted to identify the best performance and to understand the behaviour of the IoT Protocols.
-In order to measure the performance for received data on the cloud, we store the timestamp of every request to
-determine when was the first processed request and what was the last processed request.
+In order to measure the performance for received data on the cloud, we store the timestamp of every request to determine when it was Arrived the Sum Duration of all Testcase Messages will be the Diffrence between the Arrival Timestamp of the first and last Processed Message .
 
 According to the result in figure 3, the findings of the execution are described:
  - 100 requests: the duration to process the first 100 requests from MQTT and AMQP is actually the same but HTTP
