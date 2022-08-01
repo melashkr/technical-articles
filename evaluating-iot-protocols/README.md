@@ -25,7 +25,7 @@ The proposed experiment in this article is built based on the architecture shown
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/architeckture.png?row=true "IoT Architecture")
 
-## BowerBI
+## Power BI
 
 We used Power BI Desktop to load dashboard from Azure Table storage
 
