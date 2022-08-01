@@ -34,7 +34,7 @@ We used Power BI Desktop to load dashboard from Azure Table storage
  3- Find Azure Table storage   
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-get-data.PNG?row=true "Get data from Power BI")
 
- 4- Enter your Storage Account name (you need to enter Storage Account acces key)  
+ 4- Enter your Storage Account name (you need to enter Storage Account access key)  
  ![alt text](https://github.com/melashkr/technical-articles/blob/main/evaluating-iot-protocols/images/powerbi-azure-table%20url-2.PNG?row=true "Get data from Power BI")
  
  5- You get your data from Azure table und you can edit it  
