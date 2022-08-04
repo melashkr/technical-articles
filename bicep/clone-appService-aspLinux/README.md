@@ -7,13 +7,16 @@ and may be from one subscription (or region) to another subscription (or another
 Solution:  Bicep can do it, it is possible to clone a web app which is running in ASP with linux-plan to another ASP 
 and between two different subscriptions.
 
-## Prerequisites:
-•	Two subscriptions
-•	2 ASE with External Load balancer (one in every subscription)
-•	2 ASP-Linux plan (one in every subscription)
-•	Service App (Web app)
-Cloning App not possible in Azure-Portal
-TODO: put Image
+## Prerequisites:  
+
+In order to implement the solution the following services were provisioned:  
+ - Two subscriptions
+ - 2 ASE with External Load balancer (one in every subscription)
+ - 2 ASP-Linux plan (one in every subscription)
+ - App Service (Web app)
+
+**Cloning App not possible in Azure-Portal**  
+![alt text](https://github.com/melashkr/technical-articles/blob/main/bicep/clone-appService-aspLinux/images/cloning-app-not-possible-azure-portal.PNG "Cloning App Service in ASP-Linux")
 
 ## Cloning App between 2 subscriptions in ASP-Linux with Bicep
 Yes, it is possible to clone Service App with bicep from ASP in first subscription to another ASP in another subscription. 
