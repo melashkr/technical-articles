@@ -37,7 +37,7 @@ To run the template:
 cmd: az deployment group create  --resource-group rg-target  --parameters .\migAppService.parameters.json  --template-file .\migAppService.bicep
 
 ### Feedback  
-Please reach out to us if you have any feedback. We hope, the article is helpful for you.
+Please reach out to us if you have any feedback. We hope, the article is helpful for you.  
 E-Mail: mohamed.elashkr@gmail.com
 
 References:  
