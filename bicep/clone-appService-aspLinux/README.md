@@ -1,8 +1,8 @@
 # Clone App Service between two ASPs-Linx with Bicep
 
 ## Introduction
-One of the major challenges by migration is to clone app from ASP-Linux to another ASP-Linux 
-and may be from one subscription (or region) to another subscription (or another region)
+One of the major challenges by migration of App Service is to clone the App Service from ASP-Linux to another ASP-Linux 
+and maybe from one subscription (or region) to another subscription (or another region)
 
 Solution:  Bicep can do it, it is possible to clone a web app which is running in ASP with linux-plan to another ASP 
 and between two different subscriptions.
@@ -24,5 +24,21 @@ Firstly, you need to define a clone-app template and afterwards you need define 
 
 **Bicep-Template**
 
-References: 
+Firstly, you create a bicep module to clone the app from ASP to another ASP, see "cloneAppServiceModule.bicep". It is possible to define a module to call from outside by "migAppService.bicep".
+
+![alt text](https://github.com/melashkr/technical-articles/blob/main/bicep/clone-appService-aspLinux/images/clone-app-module-bicep.PNG "Cloning App Service in ASP-Linux")
+
+The bicep-templates are defined under code-folder:
+ - cloneAppServiceModule.bicep
+ - migAppService.bicep
+ - migAppService.parameters.json
+
+To run the template:  
+cmd: az deployment group create  --resource-group rg-target  --parameters .\migAppService.parameters.json  --template-file .\migAppService.bicep
+
+### Feedback  
+Please reach out to us if you have any feedback. We hope, the article is helpful for you.
+E-Mail: mohamed.elashkr@gmail.com
+
+References:  
 https://docs.microsoft.com/en-us/azure/app-service/app-service-web-app-cloning
