@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sourceSubId": {
+            "value": "xxxx-xxxx-xxx-xxx-xxxx"
+        },
+        "sourceRgName": {
+            "value": "rg-appsSource"
+        },
+        "sourceWebAppName": {
+            "value": "myFirstApp"
+        },
+        "targetAseName": {
+            "value": "ase-myApps"
+        },
+        "targetAspName": {
+            "value": "asp-plan-myApps"
+        },
+        "targetAppName": {
+            "value": "myFirstAppToClone"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|3.1"
+        },
+        "identityType": {
+            "value": "SystemAssigned"
+        }
+    }
+}
