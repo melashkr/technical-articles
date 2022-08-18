@@ -1,10 +1,11 @@
-# Clone App Service between two ASPs with Linux-Plan with Bicep
+# Clone App Service between two ASPs with Linux-Plan by Bicep
 
 ## Introduction
 One of the major challenges by migration of App Service is to clone the App Service from ASP-Linux to another ASP-Linux in ASEv3
-and maybe from one subscription (or region) to another subscription (or another region)
+and maybe from one subscription (or region) to another subscription (or another region).  
+One of the current restriction is Cloning App Service in ASP-Linux to another ASP-Linux (see references down there).
 
-Solution:  Bicep can do it, it is possible to clone a web app which is running in ASP with linux-plan to another ASP 
+Solution:  Bicep can do it, it is possible to clone a web app (App Service) which is running in ASP with linux-plan to another ASP 
 and between two different subscriptions.
 
 ## Prerequisites:  
