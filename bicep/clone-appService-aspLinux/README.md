@@ -21,7 +21,7 @@ In order to implement the solution the following services were provisioned:
 
 ## Cloning App between 2 subscriptions in ASP-Linux with Bicep
 Yes, it is possible to clone Service App with bicep from ASP in subscription A to another ASP in another subscription B.   
-The next graphs shows the whole scenario:  
+The next graph shows the whole scenario:  
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/bicep/clone-appService-aspLinux/images/CloneApp.png "Cloning App Service in ASP-Linux")
 
 Firstly, you need to define a clone-app template and afterwards you need define a migration module for Service App.
