@@ -42,6 +42,6 @@ cmd: az role definition list --name "Contributor"
 Please reach out to us if you have any feedback. We hope, the article is helpful for you.  
 E-Mail: mohamed.elashkr@gmail.com
 
-References:  
-https://learn.microsoft.com/en-us/azure/governance/policy/overview
+References:
+https://learn.microsoft.com/en-us/azure/governance/policy/overview  
 https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists
