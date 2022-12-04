@@ -1,0 +1,107 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.12.40.16777",
+      "templateHash": "11104243399827675051"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Authorization/policyDefinitions",
+      "apiVersion": "2021-06-01",
+      "name": "Enforce HTTPS only for App Service v1",
+      "properties": {
+        "displayName": "Custom - Enforce HTTPS only for App Service",
+        "policyType": "Custom",
+        "mode": "Indexed",
+        "description": "Enforce HTTPS only for App Service if it is not configured",
+        "metadata": {
+          "version": "1.0.0",
+          "category": "App Service"
+        },
+        "parameters": {
+          "effect": {
+            "type": "String",
+            "defaultValue": "AuditIfNotExists",
+            "allowedValues": [
+              "AuditIfNotExists",
+              "DeployIfNotExists"
+            ],
+            "metadata": {
+              "displayName": "Effect",
+              "description": "Enable or disable the execution of the policy"
+            }
+          }
+        },
+        "policyRule": {
+          "if": {
+            "allOf": [
+              {
+                "field": "type",
+                "equals": "Microsoft.Web/sites"
+              },
+              {
+                "field": "kind",
+                "notContains": "functionapp"
+              }
+            ]
+          },
+          "then": {
+            "effect": "[[parameters('effect')]",
+            "details": {
+              "type": "Microsoft.Web/sites",
+              "name": "[[field('name')]",
+              "roleDefinitionIds": [
+                "/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
+              ],
+              "existenceCondition": {
+                "field": "Microsoft.Web/sites/httpsOnly",
+                "equals": true
+              },
+              "deployment": {
+                "properties": {
+                  "mode": "incremental",
+                  "parameters": {
+                    "name": {
+                      "value": "[[field('name')]"
+                    },
+                    "location": {
+                      "value": "[[field('location')]"
+                    }
+                  },
+                  "template": {
+                    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+                    "contentVersion": "1.0.0.0",
+                    "parameters": {
+                      "name": {
+                        "type": "String"
+                      },
+                      "location": {
+                        "type": "String"
+                      }
+                    },
+                    "variables": {},
+                    "resources": [
+                      {
+                        "name": "[[parameters('name')]",
+                        "type": "Microsoft.Web/sites",
+                        "apiVersion": "2022-03-01",
+                        "location": "[[parameters('location')]",
+                        "properties": {
+                          "httpsOnly": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
