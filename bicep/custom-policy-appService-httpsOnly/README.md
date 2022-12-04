@@ -29,6 +29,7 @@ It is important to consider the hierarchy of your organisation when you are star
 ## RBAC for Policy in Template
 Each policy has only a single effect. after the policy is already assigned, the policy will check the condition and evaluate it. This policy allow to use “AuditIfNotExists” or “DeployIfNotExists” and we are focusing on “DeployIfNotExists”. To understand more about this Effect, please check Microsoft documentation for [DeployIfNotExists](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists)
 
+The managed identity of a deployIfNotExists or modify policy assignment needs enough permissions to create or update targeted resources.
 For custom policy definition with “DeployIfNotExists” requires to assign a contributor role  unter details property, then add a roleDefinitionIds property.
 This part is here in the template:
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/bicep/custom-policy-appService-httpsOnly/images/role-defintion.PNG?row=true "Role Defintion")
@@ -47,6 +48,6 @@ cmd: az role definition list --name "Contributor"
 Please reach out to us if you have any feedback. We hope, the article is helpful for you.  
 E-Mail: mohamed.elashkr@gmail.com
 
-References:
+References:  
 https://learn.microsoft.com/en-us/azure/governance/policy/overview  
 https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists
