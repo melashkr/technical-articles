@@ -40,6 +40,8 @@ cmd: az role definition list --name "Contributor"
 
 ## Deploy ARM-Tempate
 
+## Assign Azure Policy
+
 ## Check Compliance
 
 ## Create a remediate Task
