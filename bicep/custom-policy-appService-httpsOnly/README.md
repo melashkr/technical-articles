@@ -37,6 +37,11 @@ To get the role ID for “Contributer” role in your in environment, use this A
 cmd: az role definition list --name "Contributor"
 
 
+## Deploy ARM-Tempate
+
+## Check Compliance
+
+## Create a remediate Task
 
 ### Feedback  
 Please reach out to us if you have any feedback. We hope, the article is helpful for you.  
