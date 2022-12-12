@@ -62,7 +62,7 @@ Next step, you need to assign the policy. After the policy have been assigned, y
 Last step, you can make sure that your running apps are secure and the security requirements are fullfilled. A remediate task will fix a non-compliant resources to be compliant.  
 
 ### Feedback  
-Please reach out to us if you have any feedback. I hope, the article is helpful for you.  
+Please reach out to me if you have any feedback. I hope, the article is helpful for you.  
 E-Mail: mohamed.elashkr@gmail.com
 
 References:  
