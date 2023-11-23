@@ -1,12 +1,32 @@
-# Definition MS defender for endpoint
+# Definition MS defender for endpoint (EP)
 
 Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
+
 Example endpoints may include laptops, phones, tablets, PCs, access points, routers, and firewalls
+
+## Benefits for MS defender for EP
+
+Security team can use this dashboard for
+- Visbility, Reporting
+- Investigation and hunting
+- Automated investigation and response
+- Event Correlation Detection
+- Threat and vulnerability management
+- Signal exchange
+- Security analytics
+
+## Benetifs for Defender for endpoint sensors
+Defender for endpoint sensors gathera security-related events from onboard endpoints and send those events to customer’s tenants. The only thing needed is an internet connection.
+
+All security endpoint generates security events,  this includes threat vulnerability management,
+Detect unmanaged devices. 
+
+![alt text](https://github.com/melashkr/technical-articles/blob/main/ms365-defender/ms-defender-for-endpoint/images/defender-for-endpoints-sensors.PNG?row=true "MS Defender 365 componants")
 
 ## Plans for MS Defender for Endpoints
 Microsoft Defender for Endpoint is available in two plans, Defender for Endpoint Plan 1 and Plan 2. A new Microsoft Defender Vulnerability Management add-on is now available for Plan 2
 
-That are capabilities of both plans included in each plan:
+Comparing the capabilities of both plans and Defender for Business:
 Defender for EP Plan 1 | Defender for EP Plan 2 | Defender for Business* |
 ---------------------- | ---------------------- | -------------------- | 
 Next-generation protection (includes antimalware and antivirus) | All of the Defender for Endpoint Plan 1 capabilities, plus: |  Antispam protection |
@@ -20,7 +40,7 @@ Support for Windows 10, Windows 11, iOS, Android OS, and macOS devices | Advance
  |  Endpoint Attack Notifications | APIs (for integration with custom apps or reporting solutions) |
  |  Support for Windows (client only) and non-Windows platforms (macOS, iOS, Android, and Linux) |  Integration with Microsoft 365 Lighthouse |
  
-*)  Services optimized for small and medium-sized businesses (with up to 300 employees) include:
+*)  Services optimized for small and medium-sized businesses (with up to 300 employees) 
 
 **Mixed licensing scenarios**: If you have Defender for Endpoint Plan 1 and Plan 2 in your tenant, the ability to manage your subscription settings across client devices is now in **preview**! This new capability enables you to
 - Apply either Defender for Endpoint Plan 1 or Plan 2 settings to all your client devices
