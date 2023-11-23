@@ -5,7 +5,7 @@ The Microsoft (MS) Defender combines protection, detection, investigation, and r
 
 **The product of MS 365**:  https://security.microsoft.com
 
-Defender 365 portal includs:
+MS Defender 365 portal includs:
   - [Microsoft Defender for Office 365 ](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-about?view=o365-worldwide):  helps organizations secure their enterprise with a set of prevention, detection, investigation and hunting features to protect email, and Office 365 resources
   - [Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/?view=o365-worldwide): supports preventative protection, post-breach detection, automated investigation, and response for devices in your organization
   - [Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/what-is): is a cloud-based security solution that uses your on-premises Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization
@@ -13,6 +13,7 @@ Defender 365 portal includs:
 
 That is the main componants for Defender 365
 
+![alt text](https://github.com/melashkr/technical-articles/blob/main/ms365-defender/images/ms-defende-all.PNG?row=true "MS Defender 365 componants")
 
 
 ## What does provides Defender 365 Portal:
