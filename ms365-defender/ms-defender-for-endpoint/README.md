@@ -1,5 +1,6 @@
-# Definition Microsoft defender for endpoint 
+# Microsoft defender for endpoint 
 
+## Definition
 Microsoft (MS) Defender for Endpoint (EP) is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
 
 Example endpoints may include laptops, phones, tablets, PCs, access points, routers, and firewalls
