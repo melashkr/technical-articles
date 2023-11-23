@@ -23,7 +23,7 @@ Detect unmanaged devices.
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/ms365-defender/ms-defender-for-endpoint/images/defender-for-endpoints-sensors.PNG?row=true "MS Defender 365 componants")
 
-## Compaing Plans for MS Defender of Endpoints
+## Comparing Plans for MS Defender of Endpoints
 Microsoft Defender for Endpoint is available in two plans, Defender for Endpoint Plan 1 and Plan 2. A new Microsoft Defender Vulnerability Management add-on is now available for Plan 2
 
 Comparing the capabilities of both plans and Defender for Business:
