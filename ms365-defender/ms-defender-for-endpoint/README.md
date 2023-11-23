@@ -48,7 +48,7 @@ Support for Windows 10, Windows 11, iOS, Android OS, and macOS devices | Advance
 
 **Microsoft Dfender for business vs MS 365 Business Premium**
 
-For more Info about comparing the features of both, [click here] (https://learn.microsoft.com/en-us/microsoft-365/security/defender-business/compare-mdb-m365-plans?view=o365-worldwide)
+For more Info about comparing the features of both, [click here](https://learn.microsoft.com/en-us/microsoft-365/security/defender-business/compare-mdb-m365-plans?view=o365-worldwide)
 
 ## Integration with microsoft solutions
 Defender for Endpoint directly integrates with various Microsoft solutions, including:
