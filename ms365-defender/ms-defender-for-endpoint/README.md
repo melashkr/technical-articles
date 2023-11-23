@@ -16,7 +16,7 @@ Security team can use this dashboard for
 - Security analytics
 
 ## Benefits for Defender for endpoint sensors
-Defender for endpoint sensors gathera security-related events from onboard endpoints and send those events to customer’s tenants. The only thing needed is an internet connection.
+Defender for endpoint sensors gather security-related events from onboard endpoints and send those events to customer’s tenants. The only thing needed is an internet connection.
 
 All security endpoint generates security events,  this includes threat vulnerability management,
 Detect unmanaged devices. 
