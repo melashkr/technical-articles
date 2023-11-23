@@ -52,6 +52,9 @@ Support for Windows 10, Windows 11, iOS, Android OS, and macOS devices | Advance
 For more Info about comparing the features of both, [click here](https://learn.microsoft.com/en-us/microsoft-365/security/defender-business/compare-mdb-m365-plans?view=o365-worldwide)
 
 ## Integration with microsoft solutions
+Customer can integrate MS defender for endpoint through a rich set of Graph API to generate Alert, Events, Actions and Custom TI
+This can connect their SIEM or Ticketing to the Power BI or Custom Threat intellegience
+
 Defender for Endpoint directly integrates with various Microsoft solutions, including:
 - Microsoft Defender for Cloud
 - Microsoft Sentinel
