@@ -1,6 +1,6 @@
-# Definition MS defender for endpoint (EP)
+# Definition Microsoft defender for endpoint 
 
-Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
+Microsoft (MS) Defender for Endpoint (EP) is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
 
 Example endpoints may include laptops, phones, tablets, PCs, access points, routers, and firewalls
 
@@ -23,14 +23,14 @@ Detect unmanaged devices.
 
 ![alt text](https://github.com/melashkr/technical-articles/blob/main/ms365-defender/ms-defender-for-endpoint/images/defender-for-endpoints-sensors.PNG?row=true "MS Defender 365 componants")
 
-## Plans for MS Defender for Endpoints
+## Compaing Plans for MS Defender of Endpoints
 Microsoft Defender for Endpoint is available in two plans, Defender for Endpoint Plan 1 and Plan 2. A new Microsoft Defender Vulnerability Management add-on is now available for Plan 2
 
 Comparing the capabilities of both plans and Defender for Business:
 Defender for EP Plan 1 | Defender for EP Plan 2 | Defender for Business* |
 ---------------------- | ---------------------- | -------------------- | 
-Next-generation protection (includes antimalware and antivirus) | All of the Defender for Endpoint Plan 1 capabilities, plus: |  Antispam protection |
-Attack surface reduction |  Device discovery |  Antimalware protection |
+Next-generation protection (includes antimalware and antivirus) | **All of the Defender for Endpoint Plan 1 capabilities, plus:** |  Anti-spam protection |
+Attack surface reduction |  Device discovery |  Anti-malware protection |
 Manual response actions  | Device inventory | Next-generation protection |
 Centralized management | Core Defender Vulnerability Management capabilities | Attack surface reduction |
 Security reports |  Threat Analytics | Endpoint detection and response |
@@ -47,7 +47,8 @@ Support for Windows 10, Windows 11, iOS, Android OS, and macOS devices | Advance
 - Use mixed mode, and apply Defender for Endpoint Plan 1 settings to some client devices, and Defender for Endpoint Plan 2 to other client devices
 
 **Microsoft Dfender for business vs MS 365 Business Premium**
-TODO: screen shot
+
+For more Info about comparing the features of both, [click here] (https://learn.microsoft.com/en-us/microsoft-365/security/defender-business/compare-mdb-m365-plans?view=o365-worldwide)
 
 ## Integration with microsoft solutions
 Defender for Endpoint directly integrates with various Microsoft solutions, including:
