@@ -68,7 +68,7 @@ Time |Defender for EP Plan 1 | Defender for EP Plan 2 | Defender for Business |
 -----|---------------------- | ---------------------- | -------------------- | 
 Per Hour | 0.007 € per Server* |  0.019 € per Server  | -- |
 Per Day  |  0.007*24 h =  ~ **0.168** €  per Server |  0.019*24 h = ~ **0.456** € per Server  | -- |
-Per Month| 0.168 * 30 d = ~ 5,04 per Server | 0.456*30 d= ~ **13.68** € per Server | 2.80 € per user/per month** |
+Per Month| 0.168 * 30 d = ~ **5,04** per Server | 0.456*30 d= ~ **13.68** € per Server | 2.80 € per user/per month** |
 
 *) Pricing is based on westeurope region
 
