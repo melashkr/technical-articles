@@ -76,7 +76,7 @@ Per Month| 0.168 * 30 d = ~ 5,04 per Server | 0.456*30 d= ~ **13.68** € per Se
 
 The charge will be calculated only for running servers for Defender for PE P1 & P2
 
-## MS 365 Subscriptions and Licesing
+## MS 365 Subscriptions and Licensing
 MS 365 componants, for more infor [click here](https://www.microsoft.com/licensing/terms/productoffering/Microsoft365/MCA)
 
 Enterprise Mobility + Security E3/E5: for more infor [click here ](https://www.microsoft.com/licensing/terms/productoffering/EnterpriseMobilitySecurity/MCA#Addons)
