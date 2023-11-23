@@ -88,6 +88,8 @@ https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatin
 
 ## Next features
 
+[what is new for MS defender for Endpoint ](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/whats-new-in-microsoft-defender-endpoint?view=o365-worldwide)
+
 References:
 - Overview of Microsoft Defender for Endpoint Plan 1
 
