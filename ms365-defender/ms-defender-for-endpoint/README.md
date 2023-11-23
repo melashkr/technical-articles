@@ -15,7 +15,7 @@ Security team can use this dashboard for
 - Signal exchange
 - Security analytics
 
-## Benetifs for Defender for endpoint sensors
+## Benefits for Defender for endpoint sensors
 Defender for endpoint sensors gathera security-related events from onboard endpoints and send those events to customer’s tenants. The only thing needed is an internet connection.
 
 All security endpoint generates security events,  this includes threat vulnerability management,
@@ -74,17 +74,12 @@ Per Month| 0.168 * 30 d = ~ 5,04 per Server | 0.456*30 d= ~ **13.68** € per Se
 The charge will be calculated only for running servers for Defender for PE P1 & P2
 
 ## MS 365 Subscriptions and Licesing
-MS 365 componants, for more infor click here 
+MS 365 componants, for more infor [click here](https://www.microsoft.com/licensing/terms/productoffering/Microsoft365/MCA)
 
-https://www.microsoft.com/licensing/terms/productoffering/Microsoft365/MCA
+Enterprise Mobility + Security E3/E5: for more infor [click here ](https://www.microsoft.com/licensing/terms/productoffering/EnterpriseMobilitySecurity/MCA#Addons)
 
-Enterprise Mobility + Security E3/E5: for more infor click here 
 
-https://www.microsoft.com/licensing/terms/productoffering/EnterpriseMobilitySecurity/MCA#Addons
-
-Windows Desktop Operating System: for more infor click here 
-
-https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA#LicenseModel
+Windows Desktop Operating System: for more info [click here ](https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/MCA#LicenseModel)
 
 ## Next features
 
