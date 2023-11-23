@@ -86,6 +86,10 @@ Windows Desktop Operating System: for more info [click here ](https://www.micros
 
 [what is new for MS defender for Endpoint ](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/whats-new-in-microsoft-defender-endpoint?view=o365-worldwide)
 
+### Feedback  
+Please reach out to me if you have any feedback. I hope, the article is helpful for you.  
+E-Mail: mohamed.elashkr@gmail.com
+
 References:
 - Overview of Microsoft Defender for Endpoint Plan 1
 
