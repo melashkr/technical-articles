@@ -27,8 +27,8 @@ The Defender portal helps security teams investigate and respond to attacks by b
  - Trials
 
 Refernces:
-// MS Defender Portal  
-https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender-portal?view=o365-worldwide
+
+[MS Defender Portal](https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-defender-portal?view=o365-worldwide)
 
 [Microsoft Defender for Office 365 ](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-about?view=o365-worldwide)
 
